@@ -1,9 +1,25 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--bg-main);
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
 }
