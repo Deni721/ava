@@ -1,0 +1,96 @@
+.Kontakts {
+    max-width: 350px;
+    width: 100%;
+    margin: 54px auto 63px auto;
+    text-align: center;
+   
+    
+}
+
+.footer-header {
+    max-width: 145px;
+    width: 100%;
+    margin: 0px auto 75px auto;
+    font-size: 34px;
+}
+
+.button-link {
+   
+    max-width: 211px;
+    width: 100%;
+    border: thin solid black;
+    border-radius: 20px;
+    margin: 0px auto 20px auto;
+    height: 42px;
+    background-color: var(--text-black);
+    color: white;
+    font-size: 24px;
+}
+.container-icon{
+ margin-bottom: 33px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.icon {
+    max-width: 65px;
+    width: 100%;
+   
+}
+.text{
+    max-width: 261px;
+    width: 100%;
+    font-size: 16px;
+    margin: auto;
+    color: var(--text-grey);
+
+}
+@media (max-width:480px){
+    .Kontakts {
+    max-width: 295px;
+    width: 100%;
+    margin: 60px auto 125px auto;
+    text-align: center;
+   
+    
+}
+
+.footer-header {
+    margin: 0px auto 74px auto;
+    font-size: 34px;
+    max-width: 145px;
+    width: 100%;
+}
+
+.button-link {
+   
+    max-width: 211px;
+    width: 100%;
+    border: thin solid black;
+    border-radius: 20px;
+    margin: 0px auto 40px auto;
+    height: 42px;
+    background-color: var(--text-black);
+    color: white;
+    font-size: 24px;
+}
+.container-icon{
+ margin-bottom: 41px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.icon {
+    max-width: 55px;
+    width: 100%;
+   
+}
+.text{
+    max-width: 261px;
+    width: 100%;
+    font-size: 14px;
+    margin: auto;
+    color: var(--text-grey);
+
+}
+}

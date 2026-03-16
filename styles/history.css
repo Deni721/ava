@@ -1,0 +1,38 @@
+.history {
+    max-width: 950px;
+    width: 100%;
+    margin: 0px auto 70px auto;
+}
+
+.header-history {
+    text-align: center;
+    font-size: 34px;
+    color: var(--text-black);
+}
+
+.history-photo{
+    object-fit: cover;
+    max-width: 950px;
+    width: 100%;
+    margin:72px 0 29px 0 ;
+}
+@media (max-width:480px){
+    .history {
+        max-width: 414px;
+        width: 100%;
+       margin: 0px auto;
+}
+.container-history {
+    max-width: 315px;
+    width: 100%;
+    margin: 50px auto 79px auto;
+
+}
+
+.history-photo {
+    max-width: 315px;
+    width: 100%;
+    object-fit: cover;
+    margin: 50px auto 79px auto;
+}
+}

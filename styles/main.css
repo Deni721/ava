@@ -28,31 +28,41 @@
 
 @media(max-width:480px){
 
-    .container{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: start;
-    margin:66px 26px 0 30px;
+
+.main-section{
+max-width: 375px;
+width: 100%;
+padding:66px 30px 78px 26px;
+}
+.container{
+   margin: 0px auto;
+    max-width: 319px;
+    width: 100%;
 }
 
 .main-h1 {
-    margin-top: 25px;
+    max-width: 239px;
+    width: 100%;
+    margin: 0px auto 24px auto;
     font-size: 32px;
     font-weight: 700;
 }
 
 .main-p {
-    margin-bottom: 28px;
+    max-width: 304px;
+    width: 100%;
     font-size: 14px;
-    font-weight: 500;
-    margin-top: 24px;
+   color: var(--text-black);
 }
 
 .main-photo {
-    width: 315px;
-    height: 535px;
+    max-width: 315px;
+    width: 100%;
     object-fit: cover;
+    margin: 28px 69px 78px 30px;
+   
+    
+     
    
 }
 
